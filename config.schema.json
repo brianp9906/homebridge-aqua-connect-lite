@@ -20,9 +20,14 @@
                     "title": "Accessory",
                     "type": "string",
                     "enum": [
+                        "Pool Filter",
                         "Pool Light",
                         "Aux 1",
-                        "Aux 2"
+                        "Aux 2",
+                        "Aux 3",
+                        "Aux 4",
+                        "Aux 5",
+                        "Aux 6"
                     ]
                 }
             }

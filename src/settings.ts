@@ -13,6 +13,7 @@ export const ACCESSORY_TYPE = {
 };
 
 const ACCESSORY_NAME = {
+    FILTER: 'Pool Filter',
     LIGHT: 'Pool Light',
     AUXONE: 'Aux 1',
     AUXTWO: 'Aux 2',
@@ -23,6 +24,12 @@ const ACCESSORY_NAME = {
 };
 
 export const ACCESSORIES = [
+    {
+        NAME: ACCESSORY_NAME.FILTER,
+        TYPE: ACCESSORY_TYPE.SWITCH,
+        PROCESS_KEY_NUM: '08',
+        STATUS_KEY_INDEX: 4
+    },
     {
         NAME: ACCESSORY_NAME.LIGHT,
         TYPE: ACCESSORY_TYPE.LIGHT,
