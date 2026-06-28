@@ -1,7 +1,7 @@
 {
   "displayName": "Aqua Connect Lite",
   "name": "homebridge-aqua-connect-lite",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Homebridge plugin for Aqua Connect Lite pool controllers, compatible with Homebridge v1 and v2.",
   "license": "Apache-2.0",
   "repository": {

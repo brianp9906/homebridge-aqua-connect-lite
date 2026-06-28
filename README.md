@@ -45,13 +45,16 @@ Add this...
     "bridge_ip_address": "xxx.xxx.xxx.xxx",
     "exclude_accessories": [
     ],
+    "accessory_name_overrides": [
+      { "accessory": "Aux 2", "name": "Booster Pump" }
+    ],
     "platform": "AquaConnectLite"
 }
 ```
 
 to your Homebridge config.json in the "platforms" array.
 
-To exclude accessories, enter the accessory name in the exclude_accessories array
+To exclude accessories, enter the accessory name in the exclude_accessories array.
 
 ```
 "exclude_accessories": [
@@ -59,7 +62,17 @@ To exclude accessories, enter the accessory name in the exclude_accessories arra
     "Aux 2"
 ]
 ```
-Accessories available for exclusion are...
+
+To rename accessories, add entries under accessory_name_overrides.
+
+```
+"accessory_name_overrides": [
+    { "accessory": "Aux 2", "name": "Booster Pump" },
+    { "accessory": "Aux 3", "name": "Pool Vacuum" }
+]
+```
+
+Accessories available for exclusion or renaming are...
 
 "Pool Filter",
 "Pool Light",
